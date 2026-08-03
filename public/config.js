@@ -3,39 +3,37 @@
 // ============================================================
 window.PROFILE = {
   // Nombre artístico que se muestra grande
-  name: 'DJ NOVA',
+  name: 'AlanJuker',
   // El @handle debajo del avatar
-  handle: '@djnova',
+  handle: '@alanjuker',
   // Frase corta / bio
-  bio: 'Open format · House · Techno · Bookings abiertos',
+  bio: 'Raw techno & hardgroove · Bookings abiertos',
   // Imagen de perfil: pon un archivo en /public/avatar.jpg y deja 'avatar.jpg',
   // o pega una URL completa. Si no existe, se muestran tus iniciales.
   avatar: 'avatar.jpg',
   // Título de la pestaña del navegador
-  pageTitle: 'DJ NOVA · Links',
+  pageTitle: 'AlanJuker · Links',
 
   links: [
     {
       label: 'YouTube',
-      url: 'https://youtube.com/@djnova',
+      url: 'https://www.youtube.com/@alanjukerdj',
       icon: 'youtube',
     },
     {
       label: 'SoundCloud',
-      url: 'https://soundcloud.com/djnova',
+      url: 'https://soundcloud.com/alanjuker',
       icon: 'soundcloud',
     },
     // Añade más si quieres. Iconos disponibles:
     // youtube, soundcloud, instagram, spotify, tiktok, mixcloud, beatport, mail, link
     // {
     //   label: 'Instagram',
-    //   url: 'https://instagram.com/djnova',
+    //   url: 'https://instagram.com/alanjuker',
     //   icon: 'instagram',
     // },
   ],
 
   // Iconos pequeños del footer (opcional, deja [] para ocultarlos)
-  social: [
-    // { url: 'https://instagram.com/djnova', icon: 'instagram', label: 'Instagram' },
-  ],
+  social: [],
 };

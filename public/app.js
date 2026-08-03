@@ -29,6 +29,8 @@
   function initials(name) {
     return String(name || '')
       .replace(/[^\p{L}\p{N} ]/gu, '')
+      // "AlanJuker" -> "Alan Juker", para sacar dos iniciales de un nombre pegado
+      .replace(/(\p{Ll})(\p{Lu})/gu, '$1 $2')
       .trim()
       .split(/\s+/)
       .slice(0, 2)
