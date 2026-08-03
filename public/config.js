@@ -7,7 +7,7 @@ window.PROFILE = {
   // El @handle debajo del avatar
   handle: '@alanjuker',
   // Frase corta / bio
-  bio: 'Raw techno & hardgroove · Bookings abiertos',
+  bio: 'Raw techno & hardgroove',
   // Imagen de perfil: pon un archivo en /public/avatar.jpg y deja 'avatar.jpg',
   // o pega una URL completa. Si no existe, se muestran tus iniciales.
   avatar: 'avatar.jpg',
@@ -15,6 +15,16 @@ window.PROFILE = {
   pageTitle: 'AlanJuker · Links',
 
   links: [
+    {
+      label: 'Hardgroove Dj set',
+      url: 'https://www.youtube.com/watch?v=1wBp2Z8wAQM',
+      icon: 'youtube',
+    },
+    {
+      label: 'Bendita pintura Dj set',
+      url: 'https://www.youtube.com/watch?v=2LL51eGCavI&t=482s',
+      icon: 'youtube',
+    },
     {
       label: 'YouTube',
       url: 'https://www.youtube.com/@alanjukerdj',

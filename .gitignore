@@ -3,3 +3,7 @@ npm-debug.log*
 .env
 .DS_Store
 .railway/
+
+# Imagen fuente original (el avatar procesado vive en public/avatar.jpg)
+IMG_3209-2.jpg
+hola.html
